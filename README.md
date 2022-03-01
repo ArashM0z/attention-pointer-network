@@ -13,3 +13,4 @@ env = TSPEnv(n_cities=20, batch_size=64)
 encoder = AttentionModelEncoder(in_dim=2)
 decoder = PointerDecoder()
 ```
+<!-- notes 2022-02 -->
