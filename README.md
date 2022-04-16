@@ -14,3 +14,5 @@ encoder = AttentionModelEncoder(in_dim=2)
 decoder = PointerDecoder()
 ```
 <!-- notes 2022-02 -->
+
+<!-- notes 2022-04 -->
