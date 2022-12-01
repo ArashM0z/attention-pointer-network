@@ -20,3 +20,5 @@ decoder = PointerDecoder()
 <!-- notes 2022-06 -->
 
 <!-- notes 2022-09 -->
+
+<!-- notes 2022-11 -->
