@@ -1,2 +1,4 @@
 """Attention model encoder."""\n\nimport torch\nfrom torch import nn\n\n\nclass MHAEncoder(nn.Module):\n    def __init__(self, d: int = 128, h: int = 8, n: int = 3) -> None:\n        super().__init__()\n        layer = nn.TransformerEncoderLayer(d, h, 512, batch_first=True, norm_first=True)\n        self.enc = nn.TransformerEncoder(layer, n)\n\n    def forward(self, x: torch.Tensor) -> torch.Tensor:\n        return self.enc(x)\n
 # revised 2023-03-15T22:30:00-06:00
+
+# revised 2023-05-20T20:00:00-06:00
